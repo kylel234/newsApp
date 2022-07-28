@@ -29,7 +29,7 @@ async function searchNews(q, category) {
 export default function App() {
   const [query, setQuery] = useState("Permaculture"); // state that stores query before user searches, default query is permaculture
   const [articleList, setArticleList] = useState(null); // state that stores the articles, default is null  
-  const [mode, setMode] = useState("dark"); // state that stores the current mode, default is light mode
+  const [mode, setMode] = useState("dark"); // state that stores the current mode, default is dark mode
 
   // calls searchNews to pass the current query and date so that articles based on those parameters can be fetched, 
   // setSearch will change the value in search
