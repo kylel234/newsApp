@@ -2,3 +2,6 @@
 
 ### This project uses the Bing News Search API to get different news articles based on the user's search preferences
 
+#### Used: React.js, HTML/CSS, Bootstrap, Javascript
+#### Deployed: Google Firebase
+
