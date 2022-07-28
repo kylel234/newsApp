@@ -1,0 +1,47 @@
+:root {
+  background: rgb(36,167,194);
+  background: linear-gradient(94deg, rgba(36,167,194,1) 0%, rgba(22,233,226,1) 10%, rgba(25,84,198,1) 100%);
+}
+
+.App {
+  text-align: center;
+  background: rgb(36,167,194);
+  background: linear-gradient(94deg, rgba(36,167,194,1) 0%, rgba(22,233,226,1) 10%, rgba(25,84,198,1) 100%);
+}
+
+header {
+  text-align: center;
+  font-size: x-large;
+  background-color: lightseagreen;
+}
+
+.style-searchbar {
+  width: 350px;
+  height: 25px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.style-card {
+  width: 800px;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.style-card:hover {
+  transform: scale(0.95);
+  cursor: grabbing;
+}
+
+.style-img {
+  width: 200px;
+  border-radius: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span + span {
+  margin-left: 10px;
+}
